@@ -1,0 +1,30 @@
+/*!
+ * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+body{
+
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+section {
+margin: 570px auto;
+position: fixed;
+
+
+}
+
+section img {
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+    border: 5px solid #fff;
+
+}
+
