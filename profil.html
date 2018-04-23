@@ -8,10 +8,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full - Start Bootstrap Template</title>
+    <title>Media Pembelajaran</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Custom styles for this template -->
     <link href="css/pp.css" rel="stylesheet">
@@ -23,11 +26,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">Menu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarResponsive" style="padding-left: 730px;">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home
@@ -35,19 +38,124 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Profil.html">Profil</a>
+              <a class="nav-link" href="profil.html">Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Pt.html">Petunjuk Penggunaan</a>
+              <a class="nav-link" href="pt.html">Petunjuk Penggunaan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Diskusi.html">Diskusi</a>
+              <a class="nav-link" href="diskusi.html">Diskusi</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <!-- <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="pt.html">Petunjuk Penggunaan</a></li>
+          <li><a href="diskusi.html">Diskusi</a></li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <div class="container">
+      <br>
+      <br>
+      <br>
+      <ul class="nav nav-tabs">
+        <li><a class="btn btn-primary" data-toggle="tab" href="#home">Penulis</a></li>
+        <li><a class="btn btn-primary" data-toggle="tab" href="#menu1">Pembimbing</a></li>
+        <li><a class="btn btn-primary" data-toggle="tab" href="#menu2">Validator</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+         <!--  <h3>Penulis</h3> -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="col-md-3">
+                <img src="img/img/penulis.jpg" height="200">
+              </div>
+              <div class="col-md-9">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>NAMA</td>
+                      <td>SINTA EKA PUTRI</td>
+                    </tr>
+                    <tr>
+                      <td>NIM</td>
+                      <td>A1C414013</td>
+                    </tr>
+                    <tr>
+                      <td>TTL</td>
+                      <td>JAMBI, 22 DESEMBER 1996</td>
+                    </tr>
+                    <tr>
+                      <td>PRODI</td>
+                      <td>PENDIDIKAN BIOLOGI</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+        <div class="col-md-6" style="padding-left: 0px;">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                  <h2><center>Pembimbing I</center></h2>
+                  <center><img src="img/img/pembimbing1.jpg" height="300"></center>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>NAMA</td>
+                        <td>Prof. Dr. Dra. Asni Johari, M.Si</td>
+                      </tr>
+                      <tr>
+                        <td>NIP</td>
+                        <td>196811081993032002</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <h2><center>Pembimbing II</center></h2>
+                <center><img src="img/img/pembimbing2.jpg" height="300"></center>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>NAMA</td>
+                      <td>Dr. Afreni Hamidah, S.Pt., M.Si</td>
+                    </tr>
+                    <tr>
+                      <td>NIP</td>
+                      <td>197304211999032001 </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Validator</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        </div>
+      </div>
+    </div>
 
    
 
